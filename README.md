@@ -10,3 +10,15 @@ Here, I will show an example of a **Minimising the total weekly costs** problem 
 
 
 <img width="784" alt="Screenshot 2023-06-28 at 20 10 52" src="https://github.com/CemBirbiri/minimum-cost-flow-problem-with-OR-Tools/assets/46814542/b9758ab8-871e-4e00-8b91-bba249ef1556">
+
+1- Using OR-Tools
+
+We need to install to OR-Tool library first. To use it in Google Colab, we need to install an old version(version = 7.5.7466) of OR-Tools.
+
+```
+#Install the OR-Tools
+!pip install ortools==7.5.7466
+```
+
+
+
