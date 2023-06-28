@@ -18,11 +18,11 @@ Here, I will show an example of a **Minimising the total weekly costs** and two 
 
 1- Using [OR-Tools](https://developers.google.com/optimization/flow/mincostflow)
 
-We need to install to OR-Tool library first. To use it in Google Colab, we need to install an old version(version = 7.5.7466) of OR-Tools.
+We need to install to OR-Tool library first. To use it in Google Colab, we need to install an old version(version = 9.3.10497) of OR-Tools.
 
 ```
 #Install the OR-Tools
-!pip install ortools==7.5.7466
+!pip install ortools==9.3.10497
 ```
 
 Then we define the sources, distributors and unit costs
