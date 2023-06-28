@@ -1,8 +1,9 @@
 # minimum-cost-flow-example-with-OR-Tools
 
-This example demonstrates an example of minimizing the total weekly costs and optimization of steak flow from Argentina and Japan to serve three markets(M1, M2, M3) in Europe. This example is taken from [HelloFresh](https://www.hellofresh.com/)
+This example demonstrates an example of minimizing the total weekly costs and optimization of steak flow from Argentina and Japan to serve three markets(M1, M2, M3) in Europe. This example is taken from [HelloFresh](https://www.hellofresh.com/).
 
 **What is minimum cost flow?**
+
 The minimum-cost flow problem (MCFP) is an optimization and decision problem to find the cheapest possible way of sending a certain amount of flow through a flow network. A typical application of this problem involves finding the best delivery route from a factory to a warehouse where the road network has some capacity and cost associated.
 
 The min-cost flow problem also has special nodes, called `supply nodes` or `demand nodes`, which are similar to the `source` and `sink` in the max flow problem. Material is transported from supply nodes to demand nodes.
@@ -178,4 +179,4 @@ Minimum cost: 116900
 
 **CONCLUSION**
 
-The minimum-cost flow is a common optimization problem in supply chain flows where we minimize the cost from supply centers(sources) to markets(demands). I demonstrated two approaches to solve this problem using OR-Tools and Networkx library in Python.
+The minimum-cost flow is a common optimization problem in supply chain flows where we minimize the cost from supply centers(sources) to markets(demands). I demonstrated two approaches to solve this problem using OR-Tools and Networkx library in Python. You can find the Jupyter Notebook implementation in this repository.
